@@ -11,7 +11,7 @@ resource "aws_instance" "nishiawsserver" {
     Name = lower (var.name)
     env = upper (var.env)
     owner = upper ("Nishi23sept")
-    dept = "Engineering"
+    dept = "eng"
     client = "Vodafone"
   }
 }
