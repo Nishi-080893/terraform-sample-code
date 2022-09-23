@@ -3,16 +3,16 @@ provider "aws" {
 }
 
 
-resource "aws_instance" "myawsserver" {
+resource "aws_instance" "nishiawsserver" {
   ami = var.image
   instance_type = "t2.nano"
- # key_name = "gagan-new"
+ # key_name = "nishi-new"
   tags = {
     Name = lower (var.name)
     env = upper (var.env)
-    owner = upper ("Techlanders")
-    dept = "Eng"
-    client = "vodafone"
+    owner = upper ("Nishi23sept")
+    dept = "Engineering"
+    client = "Vodafone"
   }
 }
 
