@@ -8,7 +8,7 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "gagan-auto-tf"
+  default = "nishisever-tf"
 }
 
 variable "env" {
