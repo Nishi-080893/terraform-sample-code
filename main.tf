@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "nishiawsserver" {
   ami = var.image
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
  # key_name = "nishi-new"
   tags = {
     Name = lower (var.name)
